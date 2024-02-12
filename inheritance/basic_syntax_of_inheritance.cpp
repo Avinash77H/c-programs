@@ -12,7 +12,7 @@ public:
     }
     employee() {}
 };
-class programmer :  public employee
+class programmer :  public employee // syntax of inheritance
 {
 public:
     programmer(int empid)
