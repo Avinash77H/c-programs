@@ -3,7 +3,7 @@ using namespace std;
 class demo{
     int a,b;
     public:
-    demo(int x,int y){
+   void data(int x,int y){
         a=x;
         b=y;
     }
@@ -11,7 +11,7 @@ class demo{
         cout<<"value of a:"<<a<<" and "<<"b:"<<b<<endl;
     }
     demo operator + (demo obj){
-        demo temp(0,0);
+        demo temp;
         temp.a=a+obj.a;
         temp.b=b+obj.b;
         return temp;
@@ -23,9 +23,10 @@ class demo{
 
 
 int main(){
-    demo obj(10,20),obj1(3,7),obj2(0,0);
-    obj2.show();
-   obj2=obj+obj1;
-   obj2.show();
+    demo obj1,obj2,obj3;
+    obj1.data(1,3);
+    obj2.data(5,7);
+   obj3=obj1+obj2;// obj1 call to operator function as argument of obj2
+   obj3.show();
     return 0;
 }
