@@ -26,7 +26,7 @@ int main(){
     demo obj1,obj2,obj3;
     obj1.data(1,3);
     obj2.data(5,7);
-   obj3=obj1+obj2;// obj1 call to operator function as argument of obj2
+   obj3=obj1+obj2;// obj1 call operator function as argument of obj2
    obj3.show();
     return 0;
 }
