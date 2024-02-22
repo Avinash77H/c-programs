@@ -10,9 +10,9 @@ class demo{
     void show(){
         cout<<"value of a:"<<a<<" and "<<"b:"<<b<<endl;
     }
-    void operator - (){
-        a=-a;
-        b=-b;
+    void operator + (){
+        a=a+a;
+        b=b+b;
     }
     
 };
@@ -20,7 +20,7 @@ int main(){
     demo obj(10,20),t(3,7);
     obj.show();
     t.show();
-    -obj,-t;
+    +obj,+t;
     obj.show();
     t.show();
 
