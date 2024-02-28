@@ -5,7 +5,7 @@ int main()
 {
     int input;
     cout << "enter account number:";
-    std::cin >> input;
+    cin >> input;
     if (input == 001)
     {
         
@@ -25,18 +25,18 @@ int main()
         for (int i = 1; i < 10; i++)
         {
             cout << "enter your choise:";
-            std::cin >> choise;
+            cin >> choise;
             switch (choise)
             {
             case 1:
 
                 cout << "enter withdrowl amount:";
-                std::cin >> withdrowl;
+                cin >> withdrowl;
                 balance = balance - withdrowl;
                 break;
             case 2:
                 cout << "enter diposit amount:";
-                std::cin >> diposit;
+               cin >> diposit;
                 balance = balance + diposit;
                 break;
             case 3:
@@ -67,18 +67,18 @@ int main()
         for (int i = 1; i < 10; i++)
         {
             cout << "enter your choise:";
-            std::cin >> choise;
+            cin >> choise;
             switch (choise)
             {
             case 1:
 
                 cout << "enter withdrowl amount:";
-                std::cin >> withdrowl;
+                cin >> withdrowl;
                 balance = balance - withdrowl;
                 break;
             case 2:
                 cout << "enter diposit amount:";
-                std::cin >> diposit;
+                cin >> diposit;
                 balance = balance + diposit;
                 break;
             case 3:
@@ -108,18 +108,18 @@ int main()
         for (int i = 1; i < 10; i++)
         {
             cout << "enter your choise:";
-            std::cin >> choise;
+            cin >> choise;
             switch (choise)
             {
             case 1:
 
                 cout << "enter withdrowl amount:";
-                std::cin >> withdrowl;
+                cin >> withdrowl;
                 balance = balance - withdrowl;
                 break;
             case 2:
                 cout << "enter diposit amount:";
-                std::cin >> diposit;
+                cin >> diposit;
                 balance = balance + diposit;
                 break;
             case 3:
@@ -149,18 +149,18 @@ int main()
         for (int i = 1; i < 10; i++)
         {
             cout << "enter your choise:";
-            std::cin >> choise;
+            cin >> choise;
             switch (choise)
             {
             case 1:
 
                 cout << "enter withdrowl amount:";
-                std::cin >> withdrowl;
+                cin >> withdrowl;
                 balance = balance - withdrowl;
                 break;
             case 2:
                 cout << "enter diposit amount:";
-                std::cin >> diposit;
+               cin >> diposit;
                 balance = balance + diposit;
                 break;
             case 3:
@@ -190,7 +190,7 @@ int main()
         for (int i = 1; i < 10; i++)
         {
             cout << "enter your choise:";
-            std::cin >> choise;
+            cin >> choise;
             switch (choise)
             {
             case 1:
