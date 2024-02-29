@@ -6,7 +6,7 @@ int main()
     int input;
     cout << "enter account number:";
     cin >> input;
-    if (input == 001)
+    if (input == 101)
     {
         
         string name = "avinash";
@@ -49,7 +49,7 @@ int main()
         }
     }
 
-    else if (input == 002)
+    else if (input == 102)
     {
          string name = "milan";
 
@@ -90,7 +90,7 @@ int main()
             }
         }
     }
-    else if (input == 003)
+    else if (input == 103)
     {
          string name = "ugam";
 
@@ -131,7 +131,7 @@ int main()
             }
         }
     }
-    else if (input == 004)
+    else if (input == 104)
     {
          string name = "hardik";
 
@@ -172,7 +172,7 @@ int main()
             }
         }
     }
-    else if (input == 005)
+    else if (input == 105)
     {
          string name = "parth";
 
