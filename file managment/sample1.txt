@@ -1,1 +1,1 @@
-avinash bhai
+first time writing a file using c language
