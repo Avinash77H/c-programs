@@ -37,7 +37,7 @@ int main()
 
     milan.setdata();
     milan.getdata();
-    employee::getcount();
+    milan.getcount(); // second way for call function
 
     ugam.setdata();
     ugam.getdata();
