@@ -22,7 +22,7 @@ int main()
         cout << "3.check balance" << endl;
         cout << "4.exit" << endl;
 
-        for (int i = 1; i < 10; i++)
+        do
         {
             cout << "enter your choise:";
             cin >> choise;
@@ -46,7 +46,7 @@ int main()
                 cout << "thank you for bank visit";
                 exit(0);
             }
-        }
+        }while(choise>0 && choise<=3);
     }
 
     else if (input == 102)
@@ -64,7 +64,7 @@ int main()
         cout << "3.check balance" << endl;
         cout << "4.exit" << endl;
 
-        for (int i = 1; i < 10; i++)
+        do
         {
             cout << "enter your choise:";
             cin >> choise;
@@ -88,7 +88,7 @@ int main()
                 cout << "thank you for bank visit";
                 exit(0);
             }
-        }
+        }while(choise>0 && choise<=3);
     }
     else if (input == 103)
     {
@@ -105,7 +105,7 @@ int main()
         cout << "3.check balance" << endl;
         cout << "4.exit" << endl;
 
-        for (int i = 1; i < 10; i++)
+       do
         {
             cout << "enter your choise:";
             cin >> choise;
@@ -129,7 +129,7 @@ int main()
                 cout << "thank you for bank visit";
                 exit(0);
             }
-        }
+        }while(choise>0 && choise<=3);
     }
     else if (input == 104)
     {
@@ -146,7 +146,7 @@ int main()
         cout << "3.check balance" << endl;
         cout << "4.exit" << endl;
 
-        for (int i = 1; i < 10; i++)
+       do
         {
             cout << "enter your choise:";
             cin >> choise;
@@ -170,7 +170,7 @@ int main()
                 cout << "thank you for bank visit";
                 exit(0);
             }
-        }
+        }while(choise>0 && choise<=3);
     }
     else if (input == 105)
     {
@@ -187,7 +187,7 @@ int main()
         cout << "3.check balance" << endl;
         cout << "4.exit" << endl;
 
-        for (int i = 1; i < 10; i++)
+        do
         {
             cout << "enter your choise:";
             cin >> choise;
@@ -211,7 +211,7 @@ int main()
                 cout << "thank you for bank visit";
                 exit(0);
             }
-        }
+        }while(choise>0 && choise<=3);
     }
 
     return 0;

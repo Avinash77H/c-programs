@@ -30,8 +30,7 @@ public:
     int amount = 0;
     
     
-    for (int i = 0; i <= 100; i++)
-    {
+    do{
       cout << "enter your order:";
       cin >> order;
 
@@ -55,7 +54,8 @@ public:
       case 6:
         goto start;
       }
-    }
+    }while(order<=5);
+    
     
     start:
     cout<<"******************************************************"<<endl;
